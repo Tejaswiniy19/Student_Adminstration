@@ -14,7 +14,6 @@
     "vercel-build": "npm --workspace frontend run build"
   },
   "devDependencies": {
-    "@rollup/rollup-win32-x64-msvc": "^4.62.0",
     "concurrently": "^8.2.0"
   },
   "dependencies": {
