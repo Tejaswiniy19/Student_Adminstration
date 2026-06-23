@@ -1,0 +1,12 @@
+# DEPLOYMENT CONFIG
+# Edit this file with your DATABASE_URL, then run: ./deploy-now.sh
+
+# Required: Your PostgreSQL connection string
+DATABASE_URL=
+
+# Optional: Custom JWT secret (leave empty to auto-generate)
+JWT_SECRET=
+
+# Deployment URLs (don't change unless using custom domains)
+BACKEND_URL=https://backend-weld-seven-41.vercel.app
+FRONTEND_URL=https://frontend-seven-tan-30.vercel.app

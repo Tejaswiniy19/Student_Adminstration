@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vercel *)",
+      "Bash(chmod +x setup-env.sh)",
+      "Bash(chmod +x instant-deploy.sh)",
+      "Bash(openssl rand *)",
+      "Bash(npm exec *)",
+      "Bash(DATABASE_URL=\"postgresql://postgres:Ytejaswini%40064@db.cfupssvxtjtobygpfzna.supabase.co:5432/postgres\" npm exec prisma migrate deploy)",
+      "Bash(curl -s https://backend-weld-seven-41.vercel.app/api/auth/health)"
+    ]
+  }
+}
